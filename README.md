@@ -2,6 +2,15 @@
 
 이 프로젝트는 C 언어 코드의 추상 구문 트리(Abstract Syntax Tree, AST)를 분석하는 도구입니다.
 
+## 📥 설치 방법
+
+먼저 저장소를 클론합니다:
+
+```bash
+git clone https://github.com/idealinsane/AST.git
+cd AST
+```
+
 ## 🔧 빌드 방법
 
 `analyzer.c` 파일을 컴파일하여 실행 파일을 생성합니다:
