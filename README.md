@@ -21,16 +21,15 @@ gcc -o analyzer analyzer.c
 📂 입력 파일 형식
 
 ast.json은 C 코드의 추상 구문 트리를 JSON 형식으로 저장한 파일입니다.
-예를 들어, pycparser를 사용하여 AST를 생성할 수 있습니다:
-
-python -m pycparser -o ast.json source.c
 
 🧠 주요 기능
+
 • 함수 정의(Function Definition) 추출
 • 변수 선언(Variable Declaration) 분석
 • 조건문 및 반복문 구조 탐색
 • AST 순회 및 노드 타입별 처리
 
 ✅ 요구 사항
+
 • C 컴파일러 (예: gcc)
 • JSON 형식의 AST 파일
